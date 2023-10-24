@@ -130,7 +130,7 @@ data.sort((a, b) => {
                         fill: 'Purple',
 			name: 'Avg Days to Deal',
 			yAxisName: 'rightYAxis',
-      fill: 'blue',
+                         fill: 'Purple',
 			marker: {
 			  visible: true,
 			  height: 10,
