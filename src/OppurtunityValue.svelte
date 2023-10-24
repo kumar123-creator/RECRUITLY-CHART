@@ -228,3 +228,4 @@ return chartDataOpportunity.map(userData => ({
   <div id='chart-container-opportunity'></div>
 </div>
 </body>
+
