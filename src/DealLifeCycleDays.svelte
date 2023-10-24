@@ -127,6 +127,7 @@ data.sort((a, b) => {
 			dataSource: data,
 			xName: 'x',
 			yName: 'days',
+                        fill: 'Purple',
 			name: 'Avg Days to Deal',
 			yAxisName: 'rightYAxis',
       fill: 'blue',
