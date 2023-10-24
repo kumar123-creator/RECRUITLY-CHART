@@ -152,9 +152,9 @@ async function fetchOpportunityStateReasonsChartData(startDate, endDate) {
   
  
 </style>
-<body>
+
 <div class="chart-card">
   <h2>Opportunity State Reasons</h2>
   <div id='chart-container-state-reasons'></div>
 </div>
-</body>
+
