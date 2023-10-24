@@ -86,7 +86,7 @@ return chartDataOpportunity.map(userData => ({
     });
 
     
-  
+    const colors = [ 'DodgerBlue', 'Tomato', 'Gold', 'LimeGreen', 'Purple', 'Orange', 'Crimson', 'RoyalBlue'];
     // Initialize variables for tracking the last year and storing the transformed data
     let lastYear = null;
     let transformedChartData = [];
@@ -129,12 +129,13 @@ return chartDataOpportunity.map(userData => ({
         majorTickLines: { width: 0 },
         lineStyle: { width: 0 },
       },
-      series: sortedChartDataOpportunity.map(userData => ({
+      series: sortedChartDataOpportunity.map((userData, index) => ({
         type: 'StackingColumn',
         dataSource: userData.data,
         xName: 'x',
         width: 2,
         yName: 'y',
+        fill: colors[index],
         name: userData.name,
         columnSpacing: 0.1,
       })),
@@ -151,6 +152,7 @@ return chartDataOpportunity.map(userData => ({
 
     chartOpportunity.appendTo('#chart-container-opportunity');
   }
+
 
 
 
