@@ -119,6 +119,7 @@ data.sort((a, b) => {
 			xName: 'x',
 			yName: 'opportunities',
 			name: 'Opportunities',
+                         fill: 'DodgerBlue',
 			columnSpacing: 0.1,
 		  },
 		  {
