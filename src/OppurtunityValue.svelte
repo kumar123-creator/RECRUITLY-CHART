@@ -130,7 +130,7 @@ return chartDataOpportunity.map(userData => ({
         lineStyle: { width: 0 },
       },
       series: sortedChartDataOpportunity.map(userData => ({
-        type: 'Column',
+        type: 'StackingColumn',
         dataSource: userData.data,
         xName: 'x',
         width: 2,
