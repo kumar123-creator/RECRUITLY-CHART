@@ -101,7 +101,7 @@ data.sort((a, b) => {
 	  
 	  const chartDays = new Chart({
 		primaryXAxis: {
-		  valueType: 'DateTime',
+		  valueType: 'Category',
 		  majorGridLines: { width: 0 }
 		},
 		primaryYAxis: {
