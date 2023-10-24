@@ -1,9 +1,9 @@
 <script>
   import { onMount, afterUpdate } from 'svelte';
   import { dateStore } from './DateStore.js'; // Import the store
-import { Chart, ColumnSeries, LineSeries, Category, Legend, Tooltip, SplineSeries, BarSeries, DateTime } from '@syncfusion/ej2-charts';
+import { Chart,StackingColumnSeries, ColumnSeries, LineSeries, Category, Legend, Tooltip, SplineSeries, BarSeries, DateTime } from '@syncfusion/ej2-charts';
 import { Browser } from '@syncfusion/ej2-base';
-Chart.Inject(ColumnSeries, LineSeries, Category, Legend, Tooltip, SplineSeries,BarSeries, DateTime);
+Chart.Inject(StackingColumnSeries, ColumnSeries, LineSeries, Category, Legend, Tooltip, SplineSeries,BarSeries, DateTime);
 import Card from './MetricsCard.svelte';
 import { format, parse, compareAsc } from 'date-fns';
 
