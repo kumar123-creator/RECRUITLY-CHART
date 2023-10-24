@@ -76,6 +76,7 @@ async function fetchOpportunityStateReasonsChartData(startDate, endDate) {
         width: 2,
         yName: 'y',
         name: 'Count',
+        fill: 'DodgerBlue',
         columnSpacing: 0.1,
       },
     ],
